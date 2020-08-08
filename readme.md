@@ -4,7 +4,7 @@ simple python mouse jiggler
 
 A Mouse Jiggler prevents your computer from going to sleep while you work or play. 
 
-Jiggle alloes you to create constant mouse activity so your computer won't go idle and trigger screen savers or sleep mode—eliminating the need to log in repeatedly.
+Jiggle allows you to create constant mouse activity so your computer won't go idle and trigger screen savers or sleep mode—eliminating the need to log in repeatedly.
  
 
 ## Usage
@@ -13,7 +13,11 @@ Jiggle alloes you to create constant mouse activity so your computer won't go id
 from jiggle import MouseJiggler
 
 j = MouseJiggler()
-j.run()
+try:
+    j.start()
+except KeyboardInterrupt:
+    j.stop()
+
 ```
 
 Event / Thread based

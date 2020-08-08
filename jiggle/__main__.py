@@ -1,4 +1,7 @@
 from jiggle import MouseJiggler
 
 j = MouseJiggler()
-j.start()
+try:
+    j.start()
+except KeyboardInterrupt:
+    j.stop()
