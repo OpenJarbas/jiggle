@@ -8,6 +8,8 @@ Jiggle allows you to create constant mouse activity so your computer won't go id
  
 ![](./xkcd.png)
 
+["Command Line Fu"](https://xkcd.com/196/) by [xkcd](https://xkcd.com) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+
 ## Usage
 
 ```python
